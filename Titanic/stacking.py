@@ -92,7 +92,7 @@ SEED = 0
 NFOLDS = 5
 kf = KFold(n_splits=NFOLDS, random_state=SEED)
 
-class SklearnHelper(object):
+class SklearnHelper:
     def __init__(self, clf, seed=0, params=None):
         params['random_state'] = seed
         self.clf = clf(**params)
