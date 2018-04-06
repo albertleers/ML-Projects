@@ -11,4 +11,4 @@
   * 各种模型的训练  
   * stacking  
 
-##### stacking参考了网上资料
+##### 注：stacking参考了网上资料
